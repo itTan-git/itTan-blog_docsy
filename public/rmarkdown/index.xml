@@ -1,9 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Goldydocs –  Hugo Docsy &#43; Rmarkdown support</title>
+    <title>itTanの個人サイト –  Hugo Docsy &#43; Rmarkdown support</title>
     <link>/rmarkdown/</link>
-    <description>Recent content in  Hugo Docsy &#43; Rmarkdown support on Goldydocs</description>
+    <description>Recent content in  Hugo Docsy &#43; Rmarkdown support on itTanの個人サイト</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
     
 	  <atom:link href="/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     
