@@ -41,6 +41,16 @@ defaultContentLanguageInSubdir = false
       name = "プロフィール"
       weight = 2
       url = "/profile/"
+      [[languages.ja.menu.main]]
+        name = "CV"
+        weight = 1
+        url = "/profile/cv/"
+        parent = "プロフィール"
+      [[languages.ja.menu.main]]
+        name = "職務・研究経歴"
+        weight = 2
+        url = "/profile/study/"
+        parent = "プロフィール"
     [[languages.ja.menu.main]]
       name = "ブログ"
       weight = 3
@@ -241,115 +251,27 @@ no = 'Sorry to hear that. Please <a href="https://github.com/itTan-git/itTan-blo
 enable = true
 
 [params.links]
-# End user relevant links. These will show up on left side of footer and in the community page if you have one.
-#[[params.links.user]]
-#	name = "User mailing list"
-#	url = "https://example.org/mail"
-#	icon = "fa fa-envelope"
-#        desc = "Discussion and help from your fellow users"
 [[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/itTan_bact"
 	icon = "fab fa-twitter"
-        desc = "Follow me on Twitter!"
-#[[params.links.user]]
-#	name = "Stack Overflow"
-#	url = "https://example.org/stack"
-#	icon = "fab fa-stack-overflow"
-#        desc = "Practical questions and curated answers"
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "GitHub"
 	url = "https://github.com/itTan-git"
 	icon = "fab fa-github"
-        desc = "Development takes place here!"
-#[[params.links.developer]]
-#	name = "Slack"
-#	url = "https://example.org/slack"
-#	icon = "fab fa-slack"
-#        desc = "Chat with other project developers"
-#[[params.links.developer]]
-#	name = "Developer mailing list"
-#	url = "https://example.org/mail"
-#	icon = "fa fa-envelope"
-#        desc = "Discuss development issues around the project"
-
-# Top-level navigation (horizontal)
-##
-#[[menu.main]]
-#  name = "Documentation"
-#  weight = 1
-#  url = "/docs/"
-#  [[menu.main]]
-#    name = "First level"
-#    url = "https://www.docsy.dev/docs/"
-#    parent = "Documentation"
-#    weight = 1
-#  [[menu.main]]
-#    name = "Second level"
-#    url = "https://www.docsy.dev/docs/"
-#    parent = "Documentation"
-#    weight = 2
-#    [menu.main.params]
-#      level = 2
-#  [[menu.main]]
-#    name = "Third level"
-#    url = "https://www.docsy.dev/docs/"
-#    parent = "Documentation"
-#    weight = 2
-#    [menu.main.params]
-#      level = 3
-##
-#[[menu.main]]
-#  name = "Docsy + Rmd"
-#  weight = 2
-#  url = "/rmarkdown/"
-#  [[menu.main]]
-#    name = "Installation"
-#    url = "/rmarkdown/install/"
-#    parent = "Docsy + Rmd"
-#    weight = 1
-#  [[menu.main]]
-#    name = "New Content"
-#    url = "/rmarkdown/newcontent/"
-#    parent = "Docsy + Rmd"
-#    weight = 2
-#  [[menu.main]]
-#    name = "Deploy"
-#    url = "/rmarkdown/deploy/"
-#    parent = "Docsy + Rmd"
-#    weight = 3
-#  [[menu.main]]
-#    name = "New Features"
-#    url = "/rmarkdown/new_features"
-#    parent = "Docsy + Rmd"
-#    weight = 4
-#  [[menu.main]]
-#    name = "Common Problems"
-#    url = "/rmarkdown/commonproblems"
-#    parent = "Docsy + Rmd"
-#    weight = 5
-#  [[menu.main]]
-#    name = "Other Details"
-#    url = "/rmarkdown/other"
-#    parent = "Docsy + Rmd"
-#    weight = 6
-#  [[menu.main]]
-#    name = "Rmd Examples"
-#    url = "/rmarkdown/examples"
-#    parent = "Docsy + Rmd"
-#    weight = 7
-##
-#[[menu.main]]
-#  name = "About"
-#  weight = 3
-#  url = "/about/"
-#[[menu.main]]
-#  name = "Blog"
-#  weight = 4
-#  url = "/blog/"
-#[[menu.main]]
-#  name = "Community"
-#  weight = 5
-#  url = "/community/"
-
+[[params.links.user]]
+	name = "researchmap"
+	url = "https://researchmap.jp/it_taniguchi"
+	icon = "fas fa-play"
+[[params.links.user]]
+	name = "LinkedIn"
+	url = "https://www.linkedin.com/in/%E6%84%9B%E6%A8%B9-%E8%B0%B7%E5%8F%A3-5371aab4/"
+	icon = "fab fa-linkedin"
+[[params.links.user]]
+	name = "Google Scholar Citations"
+	url = "https://scholar.google.com/citations?user=XgKotgcAAAAJ"
+	icon = "fab fa-google"
+[[params.links.user]]
+	name = "ResearchGate"
+	url = "https://www.researchgate.net/profile/Itsuki-Taniguchi"
+	icon = "fab fa-researchgate"
