@@ -2,32 +2,40 @@
 menu:
   main:
     weight: 10
+editor_options: 
+  chunk_output_type: console
 ---
 
 
-{{< blocks/cover title="itTan (谷口 愛樹)" image_anchor="bottom" height="min" >}}
 
 
-{{< /blocks/cover >}}
 
-{{% blocks/lead %}}
-Goldydocs is a sample site using the <a href="https://github.com/google/docsy">Docsy</a> Hugo theme that shows what it can do and provides you with a template site structure. It’s designed for you to clone and edit as much as you like. See the different sections of the documentation and site for more ideas.
+{{% blocks/cover image_anchor="bottom" height="min" %}}
+
+## <font size="10"> **itTan (谷口 愛樹)** </font>
+
+{{% /blocks/cover %}}
+
+
+{{% blocks/lead color="secondary" %}}
+
+このサイトは生物学部出身の私がゲノムに魅力を感じ、日々バイオインフォマティシャンの端くれとして精進している記録をまとめたサイトです。
+公開しているドキュメント、及びブログについては不正確なものもありますので鵜呑みにせずにまずは公式ドキュメントなどを参考にしてください。
+またあくまで個人的なサイトですので、このサイトに記載している内容は所属している団体の見解を示していることではないことをご理解ください。
+
 {{% /blocks/lead %}}
 
 
-{{< blocks/section >}}
-<div class="col-12">
-<h1 class="text-center">This is another section</h1>
+{{% blocks/section color="white" %}}
+<div class="container text-center">
+  <h3>このサイトに記載している内容についての訂正、及び問い合わせについては<br>以下のSNSを通じてご連絡ください。</h3>
+  <a href="https://github.com/itTan-git/">
+    <h2><i class="fab fa-github ml-4 "></i> GitHub </h2>
+  </a>
+  <a href="https://twitter.com/itTan_bact">
+    <h2><i class="fab fa-twitter ml-4 "></i> Twitter </h2>
+  </a>
 </div>
-
-{{< /blocks/section >}}
-
+{{% /blocks/section %}}
 
 
-{{< blocks/section >}}
-
-<div class="col-12">
-<h1 class="text-center">This is another section</h1>
-</div>
-
-{{< /blocks/section >}}
