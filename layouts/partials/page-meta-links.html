@@ -25,7 +25,7 @@
 
 
     {{$rmdPath := replace .Path ".md" ".Rmd" }}
-    {{ if (fileExists (printf "/content/en/%s" $rmdPath)) }}
+<!--    {{ if (fileExists (printf "/content/en/%s" $rmdPath)) }}
       <a href="{{ replace $sourceURL ".md" ".Rmd" }}" target="_blank" class="source-link"><i class="fa fa-code fa-fw"></i> {{ "View Rmd source" }}</a>
     {{ else }}
       <a href="{{ $sourceURL }}" target="_blank" class="source-link"><i class="fa fa-code fa-fw"></i> {{ "View source code" }}</a>
@@ -37,7 +37,7 @@
       {{ $project_issueURL := printf "%s/issues/new" $gh_project_repo }}
       <a href="{{ $project_issueURL }}" target="_blank"><i class="fas fa-tasks fa-fw"></i> {{ T "post_create_project_issue" }}</a>
     {{ end }}
-
+-->
   {{ end }}
   {{ with .CurrentSection.AlternativeOutputFormats.Get "print" }}
     <a id="print" href="{{ .Permalink | safeURL }}"><i class="fa fa-print fa-fw"></i> {{ T "print_entire_section" }}</a>

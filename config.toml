@@ -1,4 +1,6 @@
 # TODO headerの色を変更する
+# TODO コードブロックへのタイトルの追加
+# TODO share buttonの追加
 
 # If deploy on github pages, change baseURL to repo's url
 # eg: "https://USERNAME.github.io/" if this is your first website
@@ -51,44 +53,50 @@ defaultContentLanguageInSubdir = false
         weight = 2
         url = "/profile/study/"
         parent = "プロフィール"
+      [[languages.ja.menu.main]]
+        name = "業績"
+        weight = 3
+        url = "/profile/achievement/"
+        parent = "プロフィール"
     [[languages.ja.menu.main]]
       name = "ブログ"
       weight = 3
       url = "/blog/"
-## English
-  [languages.en]
-    contentDir = 'content/en'
-    disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
-    title = 'itTan personal site'
-    weight = 2
-    [languages.en.params]
-      subtitle = 'Blog and technical document.'
-## English menu
-    [[languages.en.menu.main]]
-      name = "About"
-      weight = 1
-      url = "/about/"
-    [[languages.en.menu.main]]
-      name = "Profile"
-      weight = 2
-      url = "/profile/"
-      [[languages.en.menu.main]]
-        name = "CV"
-        weight = 1
-        url = "/profile/CV/"
-        parent = "Profile"
-      [[languages.en.menu.main]]
-        name = "Study"
-        weight = 2
-        url = "/profile/study/"
-        parent = "Profile"
-    [[languages.en.menu.main]]
-      name = "Blog"
-      weight = 3
-      url = "/blog/"
+### English
+#  [languages.en]
+#    contentDir = 'content/en'
+#    disabled = false
+#    languageCode = 'en-US'
+#    languageDirection = 'ltr'
+#    languageName = 'English'
+#    title = 'itTan personal site'
+#    weight = 2
+#    [languages.en.params]
+#      subtitle = 'Blog and technical document.'
+### English menu
+#    [[languages.en.menu.main]]
+#      name = "About"
+#      weight = 1
+#      url = "/about/"
+#    [[languages.en.menu.main]]
+#      name = "Profile"
+#      weight = 2
+#      url = "/profile/"
+#      [[languages.en.menu.main]]
+#        name = "CV"
+#        weight = 1
+#        url = "/profile/CV/"
+#        parent = "Profile"
+#      [[languages.en.menu.main]]
+#        name = "Study"
+#        weight = 2
+#        url = "/profile/study/"
+#        parent = "Profile"
+#    [[languages.en.menu.main]]
+#      name = "Blog"
+#      weight = 3
+#      url = "/blog/"
+
 ## Weight used for sorting.
 ## uncomment below for more than one language support
 #weight = 1
@@ -141,6 +149,7 @@ anchor = "smart"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      hardWraps = true
 ## markdown parse level, start with h2 headings ('##'), can be low as 1
   [markup.tableOfContents]
     endLevel = 6
@@ -155,6 +164,7 @@ anchor = "smart"
 
 # Everything below this are Site Params
 [params]
+custom_css = ["css/custom.css"]
 copyright = "Itsuki Taniguchi"
 privacy_policy = "https://policies.google.com/privacy"
 
@@ -275,3 +285,7 @@ enable = true
 	name = "ResearchGate"
 	url = "https://www.researchgate.net/profile/Itsuki-Taniguchi"
 	icon = "fab fa-researchgate"
+#[[params.links.user]]
+#	name = "Qiita"
+#	url = "https://qiita.com/it_tan"
+#	icon = "fab icon-qiita"

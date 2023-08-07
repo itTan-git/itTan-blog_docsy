@@ -1,6 +1,4 @@
 
+ここはブログページです。
 
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
-
+日々の記録を中心に個人の感想を主にまとめています。
