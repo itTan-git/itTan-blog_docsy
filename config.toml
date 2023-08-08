@@ -43,21 +43,6 @@ defaultContentLanguageInSubdir = false
       name = "プロフィール"
       weight = 2
       url = "/profile/"
-      [[languages.ja.menu.main]]
-        name = "CV"
-        weight = 1
-        url = "/profile/cv/"
-        parent = "プロフィール"
-      [[languages.ja.menu.main]]
-        name = "職務・研究経歴"
-        weight = 2
-        url = "/profile/study/"
-        parent = "プロフィール"
-      [[languages.ja.menu.main]]
-        name = "業績"
-        weight = 3
-        url = "/profile/achievement/"
-        parent = "プロフィール"
     [[languages.ja.menu.main]]
       name = "ブログ"
       weight = 3
