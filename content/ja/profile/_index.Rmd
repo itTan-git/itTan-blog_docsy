@@ -1,6 +1,75 @@
 ---
-title: profile
+title: プロフィール
 type: docs
 ---
 
-CV, 及び研究概要についてはそれぞれのページを参照してください。
+## 基本情報
+
+```{r base_info, include=FALSE}
+year <- length(seq(as.Date("1988/05/18"), Sys.Date(), by = "year")) -1
+```
+
+氏名: 谷口 愛樹 (タニグチ イツキ)
+
+Name: Taniguchi Itsuki
+
+生年月日: 1988年5月18日生 (満`r year`歳)
+
+性別: 男
+
+e-mail: it.taniguc [at] gmail.com
+
+## 研究・業績・職歴
+
+最新情報は [researchmap](https://researchmap.jp/it_taniguchi) にまとめています。
+
+## スキル
+
+### 英語
+
+TOEIC® Listening & Reading Test 775点 (2016年)
+実用英語技能検定 準2級
+
+### バイオインフォマティクス
+
+#### ゲノム解析
+
+対象生物: 細菌、出芽酵母、分裂酵母、ヒト
+
+新規ゲノム配列決定 (単離培養由来、メタゲノム由来)
+メタゲノム解析
+RNAseq解析
+マイクロアレイ解析
+
+### インフォマティクス
+
+#### 使用言語
+
+R
+
+#### 使用OS
+
+CentOS, Mac
+自宅NAS管理 Synology DiskStation DS218play (3年)
+計算サーバー管理 (3年)
+
+### Wet経験
+
+#### 実験機器
+
+次世代シーケンサ
+フローサイトメーター
+サンガーシーケンサー
+サーマルサイクラー
+
+#### 生体
+
+マウス (飼育、細胞培養 (骨、免疫))
+ハブ
+細菌 (大腸菌)
+
+## 趣味
+
+バンド (ドラム演奏)
+熱帯魚飼育
+サイクリング
