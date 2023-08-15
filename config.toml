@@ -7,7 +7,7 @@
 # or "https://USERNAME.github.io/REPO_NAME/" if not the first
 # replace USERNAME and REPO_NAME
 # If deploy on Netlify, change it to "/"
-baseURL = "/"
+baseURL = "https://itTan-git.github.io/-blog_docsy"
 title = "itTan Personal Site"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit", "\\.utf8"]
 enableRobotsTXT = true
