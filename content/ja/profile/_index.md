@@ -32,7 +32,8 @@ TOEIC® Listening & Reading Test 775点 (2016年)
 
 #### ゲノム解析
 
-対象生物: 細菌、出芽酵母、分裂酵母、ヒト
+対象生物: 主に細菌 (大腸菌)
+これまでに出芽酵母、分裂酵母、ヒトのゲノム解析経験あり。
 
 新規ゲノム配列決定 (単離培養由来、メタゲノム由来)
 メタゲノム解析
@@ -45,11 +46,11 @@ RNAseq解析
 
 R
 
-#### 使用OS
+#### 使用OSなど
 
 CentOS, Mac
-自宅NAS管理 Synology DiskStation DS218play (3年)
-計算サーバー管理 (3年)
+自宅NAS管理 Synology DiskStation DS218play
+計算サーバー管理
 
 ### Wet経験
 
