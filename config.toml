@@ -7,12 +7,12 @@
 # or "https://USERNAME.github.io/REPO_NAME/" if not the first
 # replace USERNAME and REPO_NAME
 # If deploy on Netlify, change it to "/"
-baseURL = "https://itTan-git.github.io/-blog_docsy"
+baseURL = "https://itTan-git.github.io/itTan-blog_docsy"
 title = "itTans Personal Site"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit", "\\.utf8"]
 enableRobotsTXT = true
 relativeURLs = true
-publishDir = "public"
+publishDir = "docs"
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 # Will give values to .Lastmod etc.
