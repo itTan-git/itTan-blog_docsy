@@ -6,19 +6,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-
-```{r setup, include = FALSE}
-# library
-library(tidyverse)
-library(knitr)
-library(flextable)
-library(ftExtra)
-
-# chunk option
-opts_chunk$set(echo = FALSE, eval = TRUE, message = FALSE, error = FALSE, warning = FALSE, cache = TRUE)
-```
-
-
 {{% blocks/cover image_anchor="bottom" height="min" %}}
 
 ## <font size="10"> **itTan (谷口 愛樹)** </font>
@@ -28,12 +15,13 @@ opts_chunk$set(echo = FALSE, eval = TRUE, message = FALSE, error = FALSE, warnin
 
 {{% blocks/lead color="secondary" %}}
 
-このサイトは生物学部出身の私が生き物の設計図であるゲノムに魅力を感じ、
-日々バイオインフォマティシャンの端くれとして精進している記録をまとめたサイトです。
-公開しているドキュメント、及びブログについては不正確なものもありますので
-鵜呑みにせずに、まずは公式ドキュメントなどを参考にしてください。
-またあくまで個人的なサイトですので、このサイトに記載している内容は
-所属している団体の見解を示していることではないことをご理解ください。
+<div class="container text-center" style="width: 80%;">
+このサイトは生物学部出身の私が生き物の設計図であるゲノムに魅力を感じ、日々バイオインフォマティシャンの端くれとして精進している記録をまとめたサイトです。
+
+公開しているドキュメント、及びブログについては不正確なものもありますので鵜呑みにせずに、まずは公式ドキュメントなどを参考にしてください。
+
+またあくまで個人的なサイトですので、このサイトに記載している内容は所属している団体の見解を示していることではないことをご理解ください。
+</div>
 
 {{% /blocks/lead %}}
 
